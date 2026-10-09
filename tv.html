@@ -1,0 +1,10 @@
+<!doctype html><html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HOPFADDICT KARAOKE · TV</title>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body>
+<header class="top"><div class="brand">🎤 HOPFADDICT AMATA<small>KARAOKE PRO V3 · TV</small></div><span class="muted" id="conn">กำลังเชื่อมต่อ…</span></header>
+<div class="grid"><main>
+<div class="screen" id="screen"><div id="poster" class="poster"><div><strong>STOP THINKING<br>START SINGING</strong><div class="eq"><i></i><i></i><i></i><i></i><i></i></div><p class="muted">สแกน QR ข้างๆ เพื่อเลือกเพลงจากมือถือ</p></div></div><div id="yt"></div>
+<div class="unlock" id="unlock"><div><strong style="font-size:28px">พร้อมร้องหรือยัง?</strong><p class="muted">กดครั้งเดียวเพื่อเปิดเสียง แล้วเพลงจะเล่นต่อเนื่องเอง</p></div><div><button class="hot" id="go">▶ เริ่มเลย</button></div></div></div>
+<div class="nowbar"><span style="font-size:28px">🎵</span><b id="now">ยังไม่มีเพลง</b></div>
+<div class="controls"><button class="hot" id="play">▶ เล่นคิว</button><button id="toggle">⏯ หยุด/ต่อ</button><button id="next">⏭ ข้ามเพลง</button><button id="full">⛶ เต็มจอ</button></div><p class="status" id="status">กำลังเตรียมเครื่องเล่น…</p></main>
+<aside class="panel"><h3>📱 สแกนเพื่อเลือกเพลง</h3><div id="qr" class="qr"></div><p style="text-align:center">ห้อง <b id="room">—</b></p><p style="text-align:center"><a id="link" target="_blank" rel="noopener" style="color:var(--amber)" href="#">เปิดรีโมตในเบราว์เซอร์นี้</a></p><h3 style="margin-top:18px">คิวถัดไป</h3><div id="queue" class="muted">ยังไม่มีเพลงในคิว</div></aside></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script><script src="firebase-config.js"></script><script type="module" src="tv.js"></script></body></html>
